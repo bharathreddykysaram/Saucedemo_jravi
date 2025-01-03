@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Tests Suite" parallel="tests" thread-count="3">
+    <test name="First Saucedemo Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.loonycorn.learningselenium.SaucedemoCheckoutTests">
+                <methods>
+                    <include name="testLogin"/>
+                    <include name="testAddBackpackToCart"/>
+                    <include name="testAddFleeceJacketToCart"/>
+                    <include name="testCart"/>
+                    <include name="testCheckout"/>
+                    <include name="testFinalCheckout"/>
+                    <include name="testOrderCompletion"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Second Saucedemo Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.loonycorn.learningselenium.SaucedemoCheckoutTests">
+                <methods>
+                    <include name="testLogin"/>
+                    <include name="testAddBackpackToCart"/>
+                    <include name="testAddFleeceJacketToCart"/>
+                    <include name="testCart"/>
+                    <include name="testCheckout"/>
+                    <include name="testFinalCheckout"/>
+                    <include name="testOrderCompletion"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Third Saucedemo Test">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.loonycorn.learningselenium.SaucedemoCheckoutTests">
+                <methods>
+                    <include name="testLogin"/>
+                    <include name="testAddBackpackToCart"/>
+                    <include name="testAddFleeceJacketToCart"/>
+                    <include name="testCart"/>
+                    <include name="testCheckout"/>
+                    <include name="testFinalCheckout"/>
+                    <include name="testOrderCompletion"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Fourth Saucedemo Test">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.loonycorn.learningselenium.SaucedemoCheckoutTests">
+                <methods>
+                    <include name="testLogin"/>
+                    <include name="testAddBackpackToCart"/>
+                    <include name="testAddFleeceJacketToCart"/>
+                    <include name="testCart"/>
+                    <include name="testCheckout"/>
+                    <include name="testFinalCheckout"/>
+                    <include name="testOrderCompletion"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
